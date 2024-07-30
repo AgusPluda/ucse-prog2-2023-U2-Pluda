@@ -2,7 +2,9 @@ package org.example;
 
 public class CalculadorCombustible {
     private static CalculadorCombustible instance;
-    private CalculadorCombustible() {}
+
+    private CalculadorCombustible() {
+    }
 
     public static CalculadorCombustible getInstance() {
         if (instance == null) {
